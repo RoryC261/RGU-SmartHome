@@ -16,6 +16,11 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Light light1 = new Light("Blue", false);
+        System.out.println(light1.switchOn());
+        System.out.println(light1.changeColour("Blue"));
+        System.out.println(light1.switchOff());
     }
     
 }
